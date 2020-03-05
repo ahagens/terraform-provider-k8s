@@ -11,10 +11,10 @@ This project is a hard fork of [ericchiang/terraform-provider-k8s](https://githu
 Use `go get` to install the provider:
 
 ```
-go get -u github.com/banzaicloud/terraform-provider-k8s
+go get -u github.com/ahagens/terraform-provider-k8s
 ```
 
-Register the plugin in `~/.terraformrc` (see [Documentation](https://www.terraform.io/docs/commands/cli-config.html) for Windows users): 
+Register the plugin in `~/.terraformrc` (see [Documentation](https://www.terraform.io/docs/commands/cli-config.html) for Windows users):
 
 ```hcl
 providers {
@@ -128,7 +128,7 @@ No resources found.
 
 ## Helm workflow
 
-#### Requirements 
+#### Requirements
 
 - Helm 2 or Helm 3
 
